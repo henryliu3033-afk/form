@@ -50,11 +50,11 @@ function CartButton({ count, onClick }) {
 
 function HamburgerIcon({ open }) {
   return (
-    <div className="flex flex-col gap-1.25 cursor-pointer">
+    <div className="flex flex-col gap-[5px] cursor-pointer">
       {[0, 1, 2].map((i) => (
         <span
           key={i}
-          className="block h-[1.5px] w-5.5 transition-all duration-300 origin-center"
+          className="block h-[1.5px] w-[22px] transition-all duration-300 origin-center"
           style={{
             background: 'var(--text)',
             opacity:    i === 1 && open ? 0 : 1,

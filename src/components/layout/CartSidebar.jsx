@@ -16,7 +16,7 @@ function CartItem({ item, onRemove, onQty }) {
       style={{ borderBottom: '1px solid var(--border-soft)' }}
     >
       {/* Thumbnail */}
-      <Link to={`/product/${item.product.id}`} onClick={onRemove} className="shrink-0">
+      <Link to={`/product/${item.product.id}`} onClick={onRemove} className="flex-shrink-0">
         <img
           src={item.product.images[0]}
           alt={item.product.name}
