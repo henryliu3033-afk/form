@@ -116,10 +116,9 @@ export default function Navbar() {
             col 3 (1fr) = Auth + Cart — right-aligned
         */}
         <div
-          className="mx-auto h-full w-full"
+          className="mx-auto h-full w-full px-4 md:px-12"
           style={{
             maxWidth: '1280px',
-            padding: '0 3rem',
             display: 'grid',
             gridTemplateColumns: '1fr auto 1fr',
             alignItems: 'center',
