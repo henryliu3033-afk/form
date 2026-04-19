@@ -109,7 +109,7 @@ export default function Navbar() {
           boxShadow: scrolled ? '0 1px 24px rgba(0,0,0,0.4)' : 'none',
         }}
       >
-        {/* 
+        {/*
           3-column grid:
             col 1 (1fr) = Logo — left-aligned
             col 2 (auto) = Nav links — truly centered
